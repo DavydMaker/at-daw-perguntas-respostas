@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>A.T. DAW - Jogo de Inglês</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+</head>
+<body align="center">
+<script type="text/javascript">
+//Variáveis Necessárias
+var pontos = 0, pergunta;
+
+//Pergunta 1
+pergunta = prompt("Qual o plural de 'batata'?");
+if(pergunta.toLowerCase() == "potatoes"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'potatoes'.");
+}
+
+//Pergunta 2
+pergunta = prompt("Como se diz ''borracha'' em inglês?");
+if(pergunta.toLowerCase() == "eraser"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'eraser'.");
+}
+
+//Pergunta 3
+pergunta = prompt("Qual é o antônimo de 'happy'?");
+if(pergunta.toLowerCase() == "angry"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'angry'.");
+}
+
+//Pergunta 4
+pergunta = prompt("Qual a tradução para a palavra 'sensible'?");
+if(pergunta.toLowerCase() == "sensato"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'sensato'.");
+}
+
+//Pergunta 5
+pergunta = prompt("Qual o significado da palavra 'lawyer'?");
+if(pergunta.toLowerCase() == "advogado"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'advogado'.");
+}
+
+//Pergunta 6
+pergunta = prompt("Qual é a tradução de 'butterfly'?");
+if(pergunta.toLowerCase() == "borboleta"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'borboleta'.");
+}
+
+//Pergunta 7
+pergunta = prompt("Quando é depois de ontem e antes de amanhã?");
+if(pergunta.toLowerCase() == "today"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'today'.");
+}
+
+//Pergunta 8
+pergunta = prompt("Como se diz sofá em inglês?");
+if(pergunta.toLowerCase() == "sofa"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'sofa'.");
+}
+
+//Pergunta 9
+pergunta = prompt("Qual é o 'SECOND' dia da semana?");
+if(pergunta.toLowerCase() == "monday"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'monday'.");
+}
+
+//Pergunta 10
+pergunta = prompt("O plural da palavra 'Toy' é:");
+if(pergunta.toLowerCase() == "toys"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'toys'.");
+}
+</script>
+<h1><font color="white" size="7">A.T. DAW - Jogo de Inglês</font></h1><br/><br/>
+<script>
+if(pontos == 10){
+	document.write("<h3><font color='lime' size='4'>Parabéns, você atingiu a pontuação máxima. 10 pontos.</font></h3>");
+}else if(pontos < 10 && pontos > 5){
+	document.write("<h3><font color='cyan' size='4'>Muito bom, você obteve uma pontuação boa. " + pontos + " pontos.</font></h3>");	
+}else if(pontos < 6 && pontos > 0){
+	document.write("<h3><font color='yellow' size='4'>Tem que melhorar, você obteve uma pontuação baixa. " + pontos + " ponto(s).</font></h3>");	
+}else if(pontos == 0){
+	document.write("<h3><font color='red' size='4'>Péssimo, você não fez pontos, melhore na próxima.</font></h3>");	
+}
+</script>
+<a href="../index.html"><input type="submit" name="menu" value="Menu" class="botaoEquipe"/></a>
+<a href=""><input type="submit" name="novojogoingles" value="Novo Jogo" class="botaoIngles"/></a>
+</body>
+</html>

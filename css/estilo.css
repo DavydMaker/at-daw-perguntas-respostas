@@ -1,0 +1,97 @@
+@charset "utf-8";
+*{
+	text-decoration: none;
+}
+body{
+	background: #333;
+	background-size: cover;
+	font-family: helvetica;
+	font-size: .7em;
+	font-weight: bold;
+}
+input{
+	top: 1px;
+	padding:10px 10px;
+	border:none;
+	outline: none;
+	background: :#fff;
+	color:#000;
+	width: 16em;
+}
+.botaoMatematica{
+	border:none;
+	background: #00abff;
+	padding: 7px;
+	color: #fff;
+	border-radius: 2px;
+	text-transform: uppercase;
+	margin:30px 6px 0;
+	width: 10em;
+	position: relative;
+	box-shadow: 0 5px #4e89ce;
+	cursor: pointer;
+	font-weight: bold;
+}
+.botaoMatematica:hover{
+	top:2px;
+	box-shadow: 0 3px #4e89ce;
+}
+.botaoIngles{
+	border:none;
+	background: #ff0033;
+	padding: 7px;
+	color: #fff;
+	border-radius: 2px;
+	text-transform: uppercase;
+	margin:30px 6px 0;
+	width: 10em;
+	position: relative;
+	box-shadow: 0 5px #ce4e4e;
+	cursor: pointer;
+	font-weight: bold;
+}
+.botaoIngles:hover{
+	top:2px;
+	box-shadow: 0 3px #ce4e4e;
+}
+.botaoHistoria{
+	border:none;
+	background: #006951;
+	padding: 7px;
+	color: #fff;
+	border-radius: 2px;
+	text-transform: uppercase;
+	margin:30px 6px 0;
+	width: 10em;
+	position: relative;
+	box-shadow: 0 5px #008062;
+	cursor: pointer;
+	font-weight: bold;
+}
+.botaoHistoria:hover{
+	top:2px;
+	box-shadow: 0 3px #008062;
+}
+.botaoEquipe{
+	border:none;
+	background: #006900;
+	padding: 7px;
+	color: #fff;
+	border-radius: 2px;
+	text-transform: uppercase;
+	margin:30px 6px 0;
+	width: 10em;
+	position: relative;
+	box-shadow: 0 5px #008000;
+	cursor: pointer;
+	font-weight: bold;
+}
+.botaoEquipe:hover{
+	top:2px;
+	box-shadow: 0 3px #008000;
+}
+.grupo:after{
+	content: "";
+	display: table;
+	clear: both;
+}

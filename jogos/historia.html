@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>A.T. DAW - Jogo de História</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+</head>
+<body align="center">
+<script type="text/javascript">
+//Variáveis Necessárias
+var pontos = 0, pergunta;
+
+//Pergunta 1
+pergunta = prompt("Famoso artista do Renascimento Italiano que pintou o teto da Capela Sistina no Vaticano.");
+if(pergunta.toLowerCase() == "michelangelo"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'michelangelo'.");
+}
+
+//Pergunta 2
+pergunta = prompt("Ele é considerado o primeiro Pedagogo da história conhecida do Homem.");
+if(pergunta.toLowerCase() == "platão"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'platão'.");
+}
+
+//Pergunta 3
+pergunta = prompt("Grande filósofo que concebia o homem como um composto de dois princípios, Alma (ou Espírito) e Corpo. Mudou o modo de pensar ao afirmar que o verdadeiro conhecimento consistia em Conhecer-se a si mesmo.");
+if(pergunta.toLowerCase() == "sócrates"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'sócrates'.");
+}
+
+//Pergunta 4
+pergunta = prompt("Em qual país está localizada a montanha Alpamayo, considerada por muitos a mais bela do mundo?");
+if(pergunta.toLowerCase() == "peru"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'peru'.");
+}
+
+//Pergunta 5
+pergunta = prompt("Qual cidade é sagrada para judeus, muçulmanos e cristãos?");
+if(pergunta.toLowerCase() == "jerusalém"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'jerusalém'.");
+}
+
+//Pergunta 6
+pergunta = prompt("Qual jogador francês marcou o gol que eliminou o Brasil da Copa do Mundo de 2006?");
+if(pergunta.toLowerCase() == "henry"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'henry'.");
+}
+
+//Pergunta 7
+pergunta = prompt("Em qual aeroporto aconteceu o acidente com o avião da TAM, em 2007, onde morreram 199 pessoas?");
+if(pergunta.toLowerCase() == "congonhas"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'congonhas'.");
+}
+
+//Pergunta 8
+pergunta = prompt("Que órgão é afetado por um glaucoma?");
+if(pergunta.toLowerCase() == "olho"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'olho'.");
+}
+
+//Pergunta 9
+pergunta = prompt("Que nação indígena se uniu a Hernán Cortês durante os conflitos bélicos que antecederam a derrota asteca?");
+if(pergunta.toLowerCase() == "tlaxcaltecas"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'tlaxcaltecas'.");
+}
+
+//Pergunta 10
+pergunta = prompt("Qual foi o país de nascimento do navegante e explorador Américo Vespúcio?");
+if(pergunta.toLowerCase() == "itália"){
+	pontos++;
+	alert("Parabéns você acertou.");
+}else{
+	alert("Errado, a resposta correta é 'itália'.");
+}
+</script>
+<h1><font color="white" size="7">A.T. DAW - Jogo de História</font></h1><br/><br/>
+<script>
+if(pontos == 10){
+	document.write("<h3><font color='lime' size='4'>Parabéns, você atingiu a pontuação máxima. 10 pontos.</font></h3>");
+}else if(pontos < 10 && pontos > 5){
+	document.write("<h3><font color='cyan' size='4'>Muito bom, você obteve uma pontuação boa. " + pontos + " pontos.</font></h3>");	
+}else if(pontos < 6 && pontos > 0){
+	document.write("<h3><font color='yellow' size='4'>Tem que melhorar, você obteve uma pontuação baixa. " + pontos + " ponto(s).</font></h3>");	
+}else if(pontos == 0){
+	document.write("<h3><font color='red' size='4'>Péssimo, você não fez pontos, melhore na próxima.</font></h3>");	
+}
+</script>
+<a href="../index.html"><input type="submit" name="menu" value="Menu" class="botaoEquipe"/></a>
+<a href=""><input type="submit" name="novojogohistoria" value="Novo Jogo" class="botaoHistoria"/></a>
+</body>
+</html>
